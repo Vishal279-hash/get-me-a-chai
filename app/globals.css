@@ -1,0 +1,27 @@
+
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+img,
+video,
+iframe {
+    max-width: 100%;
+}
+
+.invertIMG {
+    filter: invert(0.23);
+}
